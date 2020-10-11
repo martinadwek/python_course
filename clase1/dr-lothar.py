@@ -1,4 +1,6 @@
 def dr_lothar(number: int) -> int:
+    if number <= 0:
+        raise ValueError("Input must be > 0")
     steps = 0
     while number != 1:
         steps += 1
