@@ -10,7 +10,6 @@ def dr_lothar(number: int) -> int:
             number = number * 3 + 1
     return steps
 
-
-x = int(input("Number for Dr Lothar: "))
-solution = dr_lothar(x)
-print(solution)
+# x = int(input("Number for Dr Lothar: "))
+# solution = dr_lothar(x)
+# print(solution)
