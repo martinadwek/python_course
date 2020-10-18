@@ -21,3 +21,7 @@ def parenthesis_checker(text: string) -> bool:
     return len(stack) == 0
 
 
+
+# x = input()
+# solution = parenthesis_checker(x)
+# print(solution)
